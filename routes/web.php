@@ -16,9 +16,5 @@ use Spatie\FlareClient\Api;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
-// Route::get('/register','Api\UserController@register');
-Route::get('/register', UserController::register());
+
