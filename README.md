@@ -1,7 +1,7 @@
 
 Api на Laravel https://laravel-php-api.000webhostapp.com/api
 реалізовано:
-- реєстрація POST https://laravel-php-api.000webhostapp.com/api/register:
+- реєстрація POST https://laravel-php-api.000webhostapp.com/api/register :
 -необхідні поля: {
     "name": "test12",
     "email": "testEmail12@gmai.com",
