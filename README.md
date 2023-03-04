@@ -2,18 +2,19 @@
 Api на Laravel https://laravel-php-api.000webhostapp.com/api
 реалізовано:
 - реєстрація POST https://laravel-php-api.000webhostapp.com/api/register 
-необхідні поля: {
+-необхідні поля: {
     "name": "test12",
     "email": "testEmail12@gmai.com",
     "password": "123",
     "password_confirmation": "123"
 }
+
 - авторизація POST https://laravel-php-api.000webhostapp.com/api/login
-необхідні поля: {
+-необхідні поля: {
     "email": "testEmail@gmai.com",
     "password": "123"
 }
-приклад відповіді(200):{
+-приклад відповіді(200):{
     "status": true,
     "user": {
         "id": 1,
@@ -25,18 +26,18 @@ Api на Laravel https://laravel-php-api.000webhostapp.com/api
     }
 }
 - створення заказу POST https://laravel-php-api.000webhostapp.com/api/orders
-необхідне поле в headers: {
+-необхідне поле в headers: {
     Autorization: Bearer + api_token(приходить при успішному логіні)
 }
-необхідні поля тіла: {
+-необхідні поля тіла: {
     "subject": "title",
     "message": "Lorem ipsum"
 }
 - взяття всіх заказів GET https://laravel-php-api.000webhostapp.com/api/orders
-необхідне поле в headers: {
+-необхідне поле в headers: {
     Autorization: Bearer + api_token(приходить при успішному логіні)
 }
-приклад відповіді(200):{
+-приклад відповіді(200):{
     "status": true,
     "orders": [
         {
