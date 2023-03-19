@@ -9,7 +9,7 @@ Api на Laravel https://laravel-php-api.000webhostapp.com/api
     "password_confirmation": "123"
 }</code></p>
 
-<li> авторизація POST https://laravel-php-api.000webhostapp.com/api/login:</li>
+<li> авторизація POST https://laravel-php-api.000webhostapp.com/api/login</li>
 <p>необхідні поля: <code> {
     "email": "testEmail@gmai.com",
     "password": "123"
@@ -25,7 +25,7 @@ Api на Laravel https://laravel-php-api.000webhostapp.com/api
         "updated_at": "2023-03-04T22:01:24.000000Z"
     }
 }</code></p>
-<li> створення заказу POST https://laravel-php-api.000webhostapp.com/api/orders:</li>
+<li> створення заказу POST https://laravel-php-api.000webhostapp.com/api/orders</li>
 <p>необхідне поле в headers: <code>{
     Autorization: Bearer + api_token(приходить при успішному логіні)
 }</code></p>
@@ -33,7 +33,7 @@ Api на Laravel https://laravel-php-api.000webhostapp.com/api
     "subject": "title",
     "message": "Lorem ipsum"
 }</code></p>
-<li> взяття всіх заказів GET https://laravel-php-api.000webhostapp.com/api/orders:</li>
+<li> взяття всіх заказів GET https://laravel-php-api.000webhostapp.com/api/orders</li>
 <p>необхідне поле в headers:<code> {
     Autorization: Bearer + api_token(приходить при успішному логіні)
 }</code></p>
